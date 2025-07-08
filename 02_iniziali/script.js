@@ -14,7 +14,7 @@ const startLetter = (list) => {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(startLetter(names))
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
