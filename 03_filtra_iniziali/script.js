@@ -15,5 +15,7 @@ const startLetterCheck = (list, letter) => {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
+let userLetter = prompt(`Inserisci la lettera per il check`)
+console.log(startLetterCheck(names,userLetter))
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
