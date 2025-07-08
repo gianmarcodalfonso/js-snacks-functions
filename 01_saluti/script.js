@@ -7,6 +7,7 @@ const userName = 'Mario';
 const hiName = (name) => console.log(`Ciao ${name}`);
 
 // Invoca la funzione qui e stampa il risultato in console
+hiName(userName);
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
